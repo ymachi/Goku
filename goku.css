@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--bg-body);
+}
+
+
+:root{
+    --bg-body:#000;
+
+    --bg-face-color: #ffe9dc;
+    --bg-face2-color: #b49079;
+    --bg-face3-color: #b49079;
+
+    --bg-hair-color: #fbc127;
+    --bg-hair2-color: #d4811b;
+    --bg-hair3-color: #fffcc8;
+
+    --bg-shadow-color: yellow;
+    --bg-e-color: #468e54;
+}
+
+.parent{
+    width: 400px;
+    height: 400px;;
+    margin: auto;
+    margin-top: 600px;
+    position: relative;
+}
+
+.face{
+    margin: auto; 
+    width: 220px;
+    position: relative;
+    margin-top: -5px;
+}
