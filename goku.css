@@ -38,3 +38,133 @@ body{
     position: relative;
     margin-top: -5px;
 }
+
+.f1{
+    width: 80px;
+    height: 130px;
+    z-index: 10;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: skewX(15deg)skewY(45deg);
+    position: absolute;
+    border-radius: 10px;
+    left: 0px;
+    background-color: var(--bg-face-color);
+    border-bottom-right-radius: 31px;
+}
+
+.f2{
+    width: 80px;
+    height: 130px;
+    z-index: 10;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: skewX(-15deg)skewY(-46deg);
+    position: absolute;
+    border-radius: 10px;
+    right: 0px;
+    background-color: var(--bg-face-color);
+    border-bottom-left-radius: 27px;
+}
+
+.f3{
+    width:  190px;
+    height: 200px;
+    z-index: 10;
+    background-color: var(--bg-face-color);
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+}
+
+.f4{
+    width: 30px;
+    height: 20px;
+    z-index: 10;
+    background-color: var(--bg-face-color);
+    margin: auto;
+    position: relative;
+    bottom: 66px;
+    left:-3px;
+    border-bottom: 2px solid black;
+    transform: rotate(7deg);
+    border-radius: 10%;
+}
+
+.f5{
+    width: 250px;
+    height: 150px; 
+    z-index: 9;
+    background-color: var(--bg-face-color);
+    border-radius: 50%;
+    position: absolute;
+    top: -110px;
+    left: -25px;
+}
+
+/************************************/
+
+.W1, .W2{
+    width: 50px;
+    height: 50px;
+    z-index: 9;
+    border: 2px solid black;
+    position: absolute;
+    background-color: var(--bg-face-color);
+    top: -20px;
+    left: -49px;
+    transform: rotate(36deg)skewx(40deg);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 22%;
+}
+
+.W2{
+    top: -24px;
+    left: 220px;
+    transform: rotateX(0deg)rotateY(-180deg) rotateZ(35deg) skewx(40deg);
+}
+
+.W1 > div:nth-child(1), .W2 > div:nth-child(1){
+    width: 4px;
+    height: 13px;
+    z-index: 1;
+    border-left: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    transform: rotate(1deg) skewX(-5deg);
+    background-color: var (--bg-face2-color);
+}
+
+.W1 > div:nth-child(2), .W2 > div:nth-child(2){
+    width: 25px;
+    height: 35px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    transform: rotate(-75deg)skewX(2deg);
+    background-color: var(--bg-face-color);
+    border-top-right-radius: 0%;
+}
+
+.W1> div:nth-child(3), .W2 > div:nth-child(3){
+    width: 7px;
+    height: 7px;
+    z-index: 1;
+    border: 2px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-top-right-radius: 50%;
+    position: absolute;
+    top: 36.5px;
+    left: 23px;
+    transform: rotate(-33deg) skewX(0deg);
+    background-color: var(--bg-face-color);
+}
+ 
